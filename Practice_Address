@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 05 00:09:43 2016
+Practice Address Object
+@author: aminm
+"""
+
+class Practice_Address:
+    
+    def __init__(self, street, city, zip_code):
+        self.street = street
+        self.city = city
+        self.zip_code = zip_code
+        
+    def getStreet(self):
+        return self.street
+        
+    def getCity(self):
+        return self.city
+        
+    def getZipCode(self):
+        return self.zip_code
